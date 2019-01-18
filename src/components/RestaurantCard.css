@@ -1,0 +1,66 @@
+.RestaurantCard {
+  margin: 5px;
+  max-width: 500px;
+  max-height: 152px;
+  width: 350px;
+  display: flex;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #7abd98;
+}
+
+.RestaurantCard img {
+  width: 50%;
+  height: 50%;
+  min-width: 200px;
+  min-height: 150px;
+  border-radius: 5px 0px 0px 5px;
+  border: 1px solid black;
+  border-right: none;
+}
+
+.RestaurantCard div.restaurant-info {
+  color: white;
+  background-color: #263238;
+  min-width: 127px;
+  max-height: 150px;
+  border: 1px solid black;
+  border-radius: 0px 5px 5px 0px;
+  padding: 0px 10px 0px 10px;
+  overflow: hidden;
+}
+
+.RestaurantCard p > span {
+  font-style: italic;
+  font-size: 110%;
+  font-weight: 600;
+}
+
+.RestaurantCard p {
+  margin-top: 5px;
+  margin-bottom: 5px; 
+}
+
+#plus, #minus {
+  font-size: 125%;
+  padding: 5px
+}
+
+#plus:hover {
+  cursor: pointer;
+  color: yellow;
+} 
+
+#minus:hover {
+  cursor: pointer;
+  color: red;
+}
+
+#plus {
+  text-align: left;
+}
+
+#minus {
+  text-align: right;
+}

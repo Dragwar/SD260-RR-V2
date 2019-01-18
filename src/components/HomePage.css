@@ -1,0 +1,14 @@
+#background-image {
+  position: fixed;
+  /* position:absolute; */
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  background-image: url('../backgound.jpg');
+  background-size: cover;
+  background-repeat: repeat;
+  opacity: 0.9;
+  background-color: black;
+}

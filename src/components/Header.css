@@ -1,0 +1,19 @@
+.Header {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  background-color: #263238;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.Header h1 {
+  color: white;
+}
+
+.Header .search-wrapper {
+  align-self: center;
+}
+
+

@@ -1,0 +1,14 @@
+.Filter {
+  border: none;
+  border-radius: 15px;
+  padding: 5px 0px 5px 30px;
+  background: white  no-repeat;
+  background-size: 15px;
+  background-position: 10px;
+  background-image: url("../search-solid.svg");
+}
+
+.Filter {
+  outline: none;
+}
+
